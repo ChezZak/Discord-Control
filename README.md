@@ -26,7 +26,7 @@ Comming Soon!
 Open CMD and type "node index.js"
 
 > Note: Remember to instal Node.js nodejs.org 👈(ﾟヮﾟ👈)
-
+> Note#2: In Commands folder, change "UR_ID" to your Discord ID (NOT BOT!)
 ## ✨ Contributors
 
 My friend: lengoccuong.alexberga757#9042
