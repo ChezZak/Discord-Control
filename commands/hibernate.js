@@ -3,7 +3,7 @@ const { MessageEmbed } = require("discord.js");
 const Discord = require('discord.js');
 module.exports = {
 name: "hibernate",
-description: "`Show detailed stats of bot`",
+description: "`hibernate your pc",
 category: "owner",
 aliases: ["off"],
 run: async (client, message, args, level) => {
