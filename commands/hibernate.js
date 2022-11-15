@@ -2,7 +2,7 @@ const { exec } = require('child_process');
 const { MessageEmbed } = require("discord.js");
 const Discord = require('discord.js');
 module.exports = {
-name: "shutdown",
+name: "hibernate",
 description: "`Show detailed stats of bot`",
 category: "owner",
 aliases: ["off"],
@@ -20,7 +20,7 @@ const ls = exec('shutdown -h', function (stdout) {
       });
 
     let embed = new discord.MessageEmbed()
-    .setTitle(`Ngủ Đông Máy Tính Chez_Zak`)
+    .setTitle(`Hibernate your PC 🛏️`)
     .setDescription(`• Successful hibernate your PC ✅`)
     .setColor("RANDOM")
       .setThumbnail(client.user.displayAvatarURL())
