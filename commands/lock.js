@@ -3,9 +3,8 @@ const { MessageEmbed } = require("discord.js");
 const Discord = require('discord.js');
 module.exports = {
 name: "shutdown",
-description: "`Show detailed stats of bot`",
+description: "`lockyourpc`",
 category: "owner",
-aliases: ["off"],
 run: async (client, message, args, level) => {
 //command
   if(message.author.id != UR_ID){
@@ -25,7 +24,7 @@ run: async (client, message, args, level) => {
     .setColor("RANDOM")
       .setThumbnail(client.user.displayAvatarURL())
       .setFooter(
-      `Cat Music`,
+      `:>`,
       client.user.displayAvatarURL(),
     );
     
