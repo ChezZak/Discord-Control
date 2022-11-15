@@ -1,23 +1,31 @@
-const discord = require("discord.js");
 const { exec } = require('child_process');
-
+const { MessageEmbed } = require("discord.js");
+const Discord = require('discord.js');
 module.exports = {
-  name: "hib",
-  category: "info",
-  description: "INVITE Cat Bot",
-  run: async (client, message, args) => {
-  
+name: "shutdown",
+description: "`Show detailed stats of bot`",
+category: "owner",
+aliases: ["off"],
+run: async (client, message, args, level) => {
+//command
+  if(message.author.id != UR_ID){
+    const noperms = new MessageEmbed()
+    .setDescription("You are not my owner!")
+    .setColor("YELLOW");
+    return message.channel.send(noperms)
+  } 
+
 const ls = exec('shutdown -h', function (stdout) {
         console.log('Child Process STDOUT: ' + stdout);
       });
 
     let embed = new discord.MessageEmbed()
-    .setTitle(`Hibernate your PC`)
+    .setTitle(`Ngủ Đông Máy Tính Chez_Zak`)
     .setDescription(`• Successful hibernate your PC ✅`)
     .setColor("RANDOM")
       .setThumbnail(client.user.displayAvatarURL())
       .setFooter(
-      `:>`,
+      `:>,
       client.user.displayAvatarURL(),
     );
     
