@@ -5,7 +5,6 @@ module.exports = {
 name: "hibernate",
 description: "`hibernate your pc",
 category: "owner",
-aliases: ["off"],
 run: async (client, message, args, level) => {
 //command
   if(message.author.id != UR_ID){
