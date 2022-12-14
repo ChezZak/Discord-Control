@@ -3,8 +3,7 @@ Control ur PC/Laptop using Discord (Windows Only!)
 <H1>Discord Control>
 
 ## ✨Latest Updates
-This Project Has Been Pause Due To My Stupid Code :/
-I Will Try To Fix It. DM Chez_Zak#0842 if you can fix it
+Ok, I found the bugs and Im patching it rn
 ## 🚧 Prerequisites
 
 - [Node.js 14+](https://nodejs.org/en/download/)
